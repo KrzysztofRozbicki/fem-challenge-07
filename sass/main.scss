@@ -98,7 +98,9 @@ body {
   .hero {
     padding-block: 4.5rem;
   }
-
+  .hero > p {
+    padding-right: 1.875rem;
+  }
   .stats {
     flex-direction: row;
     gap: 3.75rem;
