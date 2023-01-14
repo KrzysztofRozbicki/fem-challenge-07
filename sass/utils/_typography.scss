@@ -11,7 +11,7 @@
   @include text(var(--fs-300), var(--text-primary-500), 400, 1.2);
 }
 .text-400 {
-  @include text(var(--fs-400), var(--text-primary-400), 200, 2.08);
+  @include text(var(--fs-400), var(--text-primary-400), 300, 2.08);
   font-family: var(--ff-secondary);
   text-transform: uppercase;
   letter-spacing: 1px;
