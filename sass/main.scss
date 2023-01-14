@@ -2,5 +2,75 @@
 @use './components' as *;
 
 body {
-  margin: 0;
+  font-family: var(--ff-primary);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--bg-primary);
+  padding: 1rem;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--text-accent-500);
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  &__photo {
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+  }
+}
+
+.wrapper {
+  max-width: min(87.2vw, 1110px);
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: var(--bg-secondary);
+}
+
+.attribution {
+    position: relative;
+    top: 0.5rem;
+  &__link {
+    color: var(--text-header-500);
+    font-weight: 700;
+    transition: 0.5s ease-in;
+    &:hover,
+    &:focus {
+      color: var(--text-accent-500);
+    }
+  }
+}
+
+.main {
+  padding-inline: 2rem;
+}
+
+.hero {
+  padding-block: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stats {
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
