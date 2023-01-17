@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [solution url]: (https://github.com/KrzysztofRozbicki/fem-challenge-07/)
-- [live site url]: (https://krzysztofrozbicki.github.io/fem-challenge-07/)
+- [Solution url]: (https://github.com/KrzysztofRozbicki/fem-challenge-07/)
+- [Live site url]: (https://krzysztofrozbicki.github.io/fem-challenge-07/)
 
 ## My process
 
